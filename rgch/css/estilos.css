@@ -7,27 +7,40 @@ header
     background-color: chartreuse;
     position: relative;
     height: 150px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    font-size: 35px;
+  }
+  #mhh1 
+  {
+     position: absolute;
+     top: 20px;
+     left: 800px;
+ 
+  }
+  #mul1 
+  {
+     position: absolute;
+     top: 20px;
+     left: 1600px;
+ 
   }
 main
   {
     background-color: aqua;
     position: relative;
     height: 600px;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
   }
-  #mhh1 
- {
-    position: absolute;
-    top: 20px;
-    left: 800px;
-
- }
- #mul1 
- {
-    position: absolute;
-    top: 20px;
-    left: 1600px;
-
- }
+ 
 #imp 
  {
     position: absolute;
@@ -66,6 +79,28 @@ main
  }
 footer
   {
-background-color: aquamarine;
+    background-color: aquamarine;
+    position: relative;
+    height: 203px;
   }
-
+  #mf1 
+  {
+     position: absolute;
+     top: 20px;
+     left: 200px;
+ 
+  }
+  #mf2 
+  {
+     position: absolute;
+     top: 20px;
+     left: 800px;
+ 
+  }
+  #mf3 
+  {
+     position: absolute;
+     top: 20px;
+     left: 1500px;
+ 
+  }
